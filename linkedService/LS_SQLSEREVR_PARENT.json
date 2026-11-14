@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQLSEREVR_PARENT",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LAPTOP-SAHIL\\SQLEXPRESS",
+			"database": "RCPLASTO_DEV",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "SA",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1YzBlNzJlNi05MThkLTQ0MGMtOGI4Zi1lYWVhMTA2ZTQwNmEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

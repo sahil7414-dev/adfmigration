@@ -1,0 +1,13 @@
+{
+	"name": "DS_SQLSEREVR_PARENT01",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQLSEREVR_PARENT",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

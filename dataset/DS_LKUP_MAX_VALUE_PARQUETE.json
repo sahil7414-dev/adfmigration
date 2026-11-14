@@ -1,0 +1,19 @@
+{
+	"name": "DS_LKUP_MAX_VALUE_PARQUETE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_LKUP_MAX_VALUE_PARQUETE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

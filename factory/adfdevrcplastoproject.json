@@ -1,0 +1,15 @@
+{
+	"name": "adfdevrcplastoproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6a0d4da2-8bb4-4755-b4b4-0e3e531c0664",
+		"tenantId": "defc9871-218b-40c5-9935-426db657ab00"
+	}
+}
